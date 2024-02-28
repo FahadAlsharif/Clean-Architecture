@@ -1,0 +1,68 @@
+[
+  {
+    "ContainingType": "Clean.Controllers.BookController",
+    "Method": "GetAllBooks",
+    "RelativePath": "api/Book/GetAllBooks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Application.Common.GenericResponse.EndpointResponse\u00601[[System.Collections.Generic.List\u00601[[Application.Features.Queries.GetAllBooks.GetAllBooksResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Clean.Controllers.BookController",
+    "Method": "GetLibrary",
+    "RelativePath": "api/Book/GetLibrary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Application.Common.GenericResponse.EndpointResponse\u00601[[System.Collections.Generic.List\u00601[[Application.Features.Queries.GetLibrarys.GetLibrarysResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Clean.Controllers.BookController",
+    "Method": "InsertBook",
+    "RelativePath": "api/Book/InsertBook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reqest",
+        "Type": "Application.Features.Commands.InsertBook.InsertBookReqest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Application.Common.GenericResponse.EndpointResponse\u00601[[Application.Features.Commands.InsertBook.InsertBookResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
